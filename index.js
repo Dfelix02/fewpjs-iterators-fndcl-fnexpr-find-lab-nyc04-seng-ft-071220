@@ -1,5 +1,10 @@
-const testVar = {}
+const testVar = {};
 
-function testFunc() {
-  return "hi"
+function superbowlWin(arrOfObjs) {
+  let gotObj = arrOfObjs.find((obj) => obj.result === "W")
+  
+  if (typeof gotObj !== "undefined") {
+    return gotObj.year
+  }
+   
 }
