@@ -5,7 +5,5 @@ function superbowlWin(arrOfObjs) {
   if (typeof gotObj !== "undefined") {
     return gotObj.year
   }
-   else { 
-      return gotObj;
-   }
+   
 }
