@@ -1,5 +1,5 @@
-const testVar = {}
+const testVar = {};
 
 function superbowlWin(arrOfObjs) {
-  return "hi"
+  arrOfObjs.find((obj) => obj.year&&obj.result === "W")
 }
