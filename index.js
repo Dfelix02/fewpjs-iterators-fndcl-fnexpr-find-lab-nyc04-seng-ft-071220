@@ -2,5 +2,10 @@ const testVar = {};
 
 function superbowlWin(arrOfObjs) {
   let gotObj = arrOfObjs.find((obj) => obj.result === "W")
-  return gotObj.year;
+  if (gotObj.year) {
+    return gotObj
+  }
+   else { 
+      return gotObj.year;
+   }
 }
